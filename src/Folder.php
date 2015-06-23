@@ -12,6 +12,8 @@
  */
 namespace Cityware\Components;
 
+use Exception;
+
 /**
  * Folder structure browser, lists folders and files.
  * Provides an Object interface for Common directory related tasks.
@@ -169,7 +171,7 @@ class Folder
 
         try {
             $iterator = new DirectoryIterator($this->path);
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             return array($dirs, $files);
         }
 
