@@ -169,7 +169,7 @@ class Filesystem
     /**
      * Return information witch permission files or directories
      * @param string                    $path
-     * @return string
+     * @return string 
      */
     public static function infoPermission($path)
     {
