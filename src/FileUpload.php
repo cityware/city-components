@@ -1,6 +1,6 @@
 <?php
 
-namespace Cityware\Components;
+namespace Cityware\Component;
 
 /**
  * FileUpload

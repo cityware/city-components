@@ -10,9 +10,7 @@
  * @copyright     Copyright (c) Cityware, Inc. (http://www.cityware.com.br)
  * @link          http://www.cityware.com.br Cityware(tm)
  */
-namespace Cityware\Components;
-
-use Exception;
+namespace Cityware\Component;
 
 /**
  * Folder structure browser, lists folders and files.
@@ -171,7 +169,7 @@ class Folder
 
         try {
             $iterator = new DirectoryIterator($this->path);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             return array($dirs, $files);
         }
 

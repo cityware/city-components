@@ -11,7 +11,7 @@
  * @link          http://www.cityware.com.br Cityware(tm)
  * @package       Cityware.Component
  */
-namespace Cityware\Components;
+namespace Cityware\Component;
 
 /**
  * Convenience class for reading, writing and appending to files.
